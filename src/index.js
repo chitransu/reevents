@@ -7,9 +7,9 @@ import * as serviceWorker from './serviceWorker';
 const rootElement = document.getElementById('root');
 
 let render = () => {
-  ReactDOM.render(<React.StrictMode>
+  ReactDOM.render(
     <App />
-  </React.StrictMode>,rootElement);
+  ,rootElement);
 }
 
 if(module.hot){
